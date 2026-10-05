@@ -223,30 +223,79 @@
     font-family: Lato;
     text-align: center;
     font-size: 14px;
-    color: #9F9F9F;
+    color: #5D5D5D;
     margin: 0;
+}
+
+.product__count {
+    font-family: Lato;
+    text-align: center;
+    font-size: 14px;
+    color: #F16D7F;
+    margin: 0;
+}
+
+.products__center span {
+    font-family: Lato;
+    font-size: 13px;
+    color: #000000;
+    margin: 10px;
 }
 
 .product__box {
     display: grid; 
     grid-template-columns: repeat(3, 360px); 
-    gap: 30px;
-    border: 5px solid red;
+    gap: 25px;
     justify-content: center; 
+    margin-top: 50px;
 }
 
 .product__item {
-    background-color: #222224;
+    height: 581px;
+    background-color: #F8F8F8;
 }
 
 .product_img {
-    width: 100%;
+    width: 360px;
     height: 420px;
+    object-fit: contain;  
+    background-color: #F7E4E2;
+}
+
+.product__content {
+    font-family: Lato;
+    padding: 16px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product__content span {
+    margin: 0;
+    color: #000000; 
+}
+
+.product__content p {
+    text-align: left;   
+    color: #5D5D5D; 
+}
+
+#product__price {
+    color: #F16D7F;
 }
 
 .product__button {
     display: flex;
     justify-content: center;
+    align-items: center; 
+    font-family: Lato;
+    width: 212px;
+    height: 48px;
+    background-color: #ffffff;
+    color: #F16D7F;            
+    border: 1px solid #F16D7F; 
+    margin: 50px auto;
 }
 /* FOOTER */
 
